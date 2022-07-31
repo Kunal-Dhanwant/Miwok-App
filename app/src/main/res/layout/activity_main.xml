@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvnumbers"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:background="#FFEB3B"
+        android:text="Numbers"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/tvfamilymembers"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#8BC34A"
+        android:text="Family Members"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/tvcolors"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#9C27B0"
+        android:text="Colors"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/tvphrases"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#009688"
+        android:text="Phrases"
+        android:textSize="34sp" />
+</LinearLayout>

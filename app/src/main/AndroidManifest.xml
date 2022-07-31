@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mivok">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Hindi Spoken"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mivok">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+    </activity>
+
+
+
+
+        <activity
+            android:name=".PhrasesActivity"
+            android:exported="false"
+            android:label="Phrases" />
+        <activity
+            android:name=".ColorsActivity"
+            android:exported="false"
+            android:label="Colors" />
+        <activity
+            android:name=".FamilyMemberAcivity"
+            android:exported="false"
+            android:label="Family Members" />
+        <activity
+            android:name=".NumberActivity"
+            android:exported="false"
+            android:label="Numbers" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+    </application>
+
+</manifest>
